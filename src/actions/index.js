@@ -1,12 +1,16 @@
-export const increment = () =>{
+
+
+export const increment = (num) =>{
     return {
-        type: 'Increment'
+        type: 'Increment',
+        payload: num
     };
 };
 
-export const decrement = () =>{
+export const decrement = (num) =>{
     return {
-        type: 'Decrement'
+        type: 'Decrement',
+        payload: num
     };
 };
 
@@ -15,4 +19,11 @@ export const signin = () =>{
         type: 'signin'
     };
 };
+
+export const setVal = (val) =>{
+    return {
+        type: 'setVal',
+        payload: val
+    }
+}
 

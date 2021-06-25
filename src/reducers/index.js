@@ -1,10 +1,12 @@
 import counterReducer from './counter';
 import isLoggedin from './isLogged';
+import valueReducer from './value';
 import { combineReducers } from 'redux';
 
 const allReducers = combineReducers({
     counter: counterReducer,
-    loggedIn: isLoggedin
+    loggedIn: isLoggedin,
+    value: valueReducer
 })
 
 
