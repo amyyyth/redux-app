@@ -1,7 +1,7 @@
 # A Simple app to study the working of Redux State management
 
-This project implements some state management functions using the react0redux package.
-
+This project implements some state management functions using the react-redux package.
+Inspired from the video Redux for Beginners (Dev Ed Channel // Youtube)
 
 
 ## Available Scripts
